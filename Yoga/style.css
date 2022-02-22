@@ -1,0 +1,148 @@
+body{
+    background: url(image/1.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.header{
+    padding: 0;
+    width: 1144px;
+    height: 705px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+
+.nav{
+    height: 80px;
+    width: 1144px;
+    margin: 0 auto;
+    margin-top: -20px;
+    font-family: open sans;
+}
+.logo{
+    color: darkgray;
+    margin-top: 35px;
+    margin-left: 22px;
+    font-size: 25px;
+}
+.navigation{
+    margin-top:-15px;
+    width: 301px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: 1;
+    margin-bottom: 22;
+    text-align: justify;
+    text-decoration: none; 
+    
+}
+
+a{
+    margin-left:20px; 
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: indianred;
+}
+
+ ul.hr {
+    margin: 0; /* Обнуляем значение отступов */
+    
+   }
+   ul.hr li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    
+   }
+
+.footer{
+    margin: 0 auto;
+    margin-right: -110px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+    width: 101.3%;
+    height: 164px;
+    padding: 0;
+    background-color:black;
+}
+p{
+    margin-top:-35px;
+    margin-left: 95px;
+    color: white;
+    padding: 0;
+}
+p:hover{
+    color: indianred;
+}
+.img1{
+    margin-left: 5px;
+    padding: 0;
+    width: 100px;
+    height: 50px;
+}
+
+
+.center{
+    margin-top: -50px;
+    margin-left:50%; 
+    font-size: 80px;
+    width: 667px;
+    font-family: julee;
+    text-align: left;
+}
+
+.h4{
+    font-size: 28;
+    margin-left: 50%;
+    margin-top: -50px;
+    text-align: left;
+    width: 541;
+}
+
+
+.btn{
+    width: 205px;
+    height: 49px;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    padding-top: -10px;
+    text-decoration: none;
+    margin-left: 50%;
+    margin-top: 50px;
+    font-family: open sans;
+}
+
+button{
+    border-radius:  5px;
+    background:none;
+    width: 100px;
+    height: 50px;
+}
+
+button:hover{
+    background: black;
+    color: aliceblue;
+}
+
+
+.img2{
+    width: 100px;
+    height: 80px;
+}
+
+.p2{
+    margin-top: -50px;
+    margin-left: 100px;
+}
+h5{
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+
+
+
