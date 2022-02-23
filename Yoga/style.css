@@ -1,17 +1,11 @@
+/* BoDy */
+
 body{
     background: url(image/1.jpg) no-repeat;
     background-size: 100% 100%;
 }
 
-
-.header{
-    padding: 0;
-    width: 1144px;
-    height: 705px;
-    margin: 0 auto;
-    margin-top: -5px;
-}
-
+/* Nav */
 
 .nav{
     height: 80px;
@@ -45,44 +39,33 @@ a{
 }
 a:hover{
     color: indianred;
+    transition: .3s linear;
+}
+
+.glavnaya{
+    color: darkblue;
 }
 
  ul.hr {
-    margin: 0; /* Обнуляем значение отступов */
+    margin: 0;
     
    }
    ul.hr li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    
+    display: inline; 
+    margin-right: 5px; 
    }
 
-.footer{
-    margin: 0 auto;
-    margin-right: -110px;
-    margin-left: -10px;
-    margin-bottom: -20px;
-    width: 101.3%;
-    height: 164px;
-    padding: 0;
-    background-color:black;
-}
-p{
-    margin-top:-35px;
-    margin-left: 95px;
-    color: white;
-    padding: 0;
-}
-p:hover{
-    color: indianred;
-}
-.img1{
-    margin-left: 5px;
-    padding: 0;
-    width: 100px;
-    height: 50px;
-}
 
+
+/* Feader */
+
+.header{
+    padding: 0;
+    width: 1144px;
+    height: 705px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
 
 .center{
     margin-top: -50px;
@@ -118,30 +101,89 @@ p:hover{
 button{
     border-radius:  5px;
     background:none;
-    width: 100px;
+    width: 150px;
     height: 50px;
 }
 
 button:hover{
     background: black;
     color: aliceblue;
+    transition: .3s linear;
+}
+button:active{
+    outline:none; 
+    border: 5px solid white;
+    transition: .3s linear;
 }
 
+/* Footer */
+
+.footer{
+    margin: 0 auto;
+    margin-right: -110px;
+    margin-left: -10px;
+    margin-bottom: -20px;
+    width: 101.3%;
+    height: 164px;
+    padding: 0;
+    background-color:black;
+}
+
+.img1{
+    margin-left: 5px;
+    padding: 0;
+    width: 100px;
+    height: 50px;
+}
 
 .img2{
+    margin-left: 5px;
+    padding: 0;
     width: 100px;
     height: 80px;
 }
 
-.p2{
-    margin-top: -50px;
-    margin-left: 100px;
+p{
+    margin-top:-35px;
+    margin-left: 95px;
+    color: white;
+    padding: 0;
+    transition: .3s linear;
 }
+
+p:hover{
+    color: indianred;
+}
+
+.p2{
+    margin-top: -47px;
+    margin-left: 110px;
+}
+
 h5{
     text-align: center;
     color: aliceblue;
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
